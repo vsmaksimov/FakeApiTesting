@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/schema666",
+  "type": "object",
+  "data": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "number"
+      },
+      "first_name": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string"
+      },
+      "email": {
+        "type": "string",
+        "format": "email"
+      },
+      "avatar": {
+        "type": "string"
+      }
+    }
+  }
+}
